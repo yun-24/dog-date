@@ -1,0 +1,37 @@
+.action-btn {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.action-btn:hover {
+  transform: scale(1.1);
+}
+
+.action-btn:active {
+  transform: scale(0.95);
+}
+
+.action-btn-like {
+  background: #ff6b6b;
+  color: white;
+  box-shadow: 0 4px 15px rgba(255, 107, 107, 0.4);
+}
+
+.action-btn-pass {
+  background: white;
+  color: #ccc;
+  border: 2px solid #eee;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.action-btn-pass:hover {
+  color: #999;
+  border-color: #ccc;
+}

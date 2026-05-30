@@ -1,0 +1,32 @@
+.dog-card {
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  max-width: 350px;
+}
+
+.dog-photo {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.dog-info {
+  padding: 20px;
+  text-align: center;
+}
+
+.dog-name {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #333;
+}
+
+.dog-details {
+  margin: 5px 0 0;
+  color: #666;
+  font-size: 0.95rem;
+}
